@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mich Electronics | Tecnología y accesorios</title>
+<meta name="description" content="Mich Electronics - Cargadores, cables USB, auriculares, parlantes, accesorios y SIM Cards.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><div class="brand-mark">🐋</div><div><div class="name">Mich</div><div class="sub">Electronics</div></div></div>
+  <div class="search"><input id="search" placeholder="Buscar productos..."><button onclick="filterProducts()">⌕</button></div>
+  <a class="wa" href="https://wa.me/5491140992589" target="_blank">WhatsApp<br><b>+54 9 11 4099 2589</b></a>
+</header>
+<nav><a class="active" href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#categorias">Categorías</a><a href="#ofertas">Ofertas</a><a href="#contacto">Contacto</a></nav>
+<main id="inicio">
+  <section class="hero"><img src="assets/mich-electronics-hero.png" alt="Mich Electronics y homenaje al Gran Willy"></section>
+  <section class="benefits"><div>🚚 <b>Envíos a todo el país</b><small>(según zona)</small></div><div>🛡️ <b>Productos 100% originales</b><small>y con garantía</small></div><div>💳 <b>Múltiples medios de pago</b><small>Mercado Pago, transferencia, etc.</small></div><div>🎧 <b>Atención personalizada</b><small>por WhatsApp</small></div></section>
+  <section id="categorias" class="categories"><button onclick="showCategory('Todos')">Todas</button><button onclick="showCategory('Cargadores')">Cargadores</button><button onclick="showCategory('Cables USB')">Cables USB</button><button onclick="showCategory('Auriculares')">Auriculares</button><button onclick="showCategory('Parlantes')">Parlantes</button><button onclick="showCategory('SIM Cards')">SIM Cards</button><button onclick="showCategory('Accesorios')">Accesorios</button></section>
+  <section id="productos" class="products-section"><div class="section-title"><h1>Productos destacados</h1><button onclick="showCategory('Todos')">Ver todos →</button></div><div id="grid" class="grid"></div></section>
+  <section id="ofertas" class="offer"><h2>Ofertas y atención directa</h2><p>Consultá disponibilidad, precios por cantidad y pedidos directamente por WhatsApp.</p><a href="https://wa.me/5491140992589?text=Hola%20Mich%20Electronics%2C%20quiero%20consultar%20por%20productos" target="_blank">Consultar por WhatsApp</a></section>
+</main>
+<footer id="contacto">© 2026 Mich Electronics · Tecnología y accesorios · WhatsApp +54 9 11 4099 2589</footer>
+<script src="script.js"></script>
+</body></html>
